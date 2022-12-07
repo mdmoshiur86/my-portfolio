@@ -46,3 +46,32 @@ h1 span{
     background-repeat: no-repeat;
     background-position: right;
 }
+.flexible-bottom{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+}
+.color-orange{
+    color: orange;
+}
+.width-bottom{
+    width: 40%;
+    margin: 5%;
+    padding: 2%;
+    border-radius: 5px;
+    box-shadow: 7px 2px 30px grey;
+}
+.full{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
